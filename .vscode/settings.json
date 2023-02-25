@@ -1,0 +1,41 @@
+{
+    "files.exclude": {
+      "**/.expo-shared": true,
+      "**/dist": true,
+      "**/node_modules": true,
+      "**/.yarn/cache": true,
+      "data": true
+    },
+    "editor.tabSize": 2,
+    "eslint.enable": true,
+    "eslint.packageManager": "yarn",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.tokenColorCustomizations": {
+      "comments": "#FF9C13",
+      "textMateRules": [
+        {
+          "name": "Comment",
+          "scope": [
+            "comment",
+            "comment.block",
+            "comment.block.documentation",
+            "comment.line",
+            "comment.line.double-slash",
+            "punctuation.definition.comment",
+            "variable.language"
+          ],
+          "settings": {
+            "fontStyle": "bold italic"
+          }
+        }
+      ]
+    },
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "scss.lint.unknownAtRules": "ignore",
+    "css.lint.unknownAtRules": "ignore",
+    "less.lint.unknownAtRules": "ignore",
+    "editor.defaultFormatter": "numso.prettier-standard-vscode"
+  }
