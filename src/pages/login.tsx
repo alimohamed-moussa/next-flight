@@ -25,7 +25,7 @@ const Login = () => {
         }}
       >
         <Typography component='h1' variant='h5'>
-          Se connecter
+          Sign In
         </Typography>
         <Box component='form' noValidate sx={{ mt: 3 }}>
           <TextField
@@ -42,16 +42,16 @@ const Login = () => {
             required
             fullWidth
             name='password'
-            label='Mot de passe'
+            label='Password'
             type='password'
             id='password'
             autoComplete='new-password'
             sx={{ marginTop: '15px' }}
           />
-          <Box sx={{ display: 'flex', marginTop: '15px', justifyContent: 'space-between', fontSize: fontSize.xl }}>
+          {/*     <Box sx={{ display: 'flex', marginTop: '15px', justifyContent: 'space-between', fontSize: fontSize.xl }}>
             <Typography component='span'>Pas encore de compte?</Typography>
             <Link href='/register'>Créer un compte</Link>
-          </Box>
+          </Box> */}
 
           <Button
             type='submit'
@@ -66,7 +66,7 @@ const Login = () => {
               fontSize: fontSize.xl
             }}
           >
-            valider
+            log in
           </Button>
         </Box>
       </Box>

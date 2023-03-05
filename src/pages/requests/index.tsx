@@ -2,12 +2,12 @@ import React from 'react';
 import PrimaryLayout from '../../components/layouts/primary/PrimaryLayout';
 import { NextPageWithLayout } from '../page';
 
-const Demandes: NextPageWithLayout = () => {
-  return <div>demandes</div>;
+const Requests: NextPageWithLayout = () => {
+  return <div>Requests</div>;
 };
 
-export default Demandes;
+export default Requests;
 
-Demandes.getLayout = page => {
+Requests.getLayout = page => {
   return <PrimaryLayout>{page}</PrimaryLayout>;
 };

@@ -13,27 +13,10 @@ const Navbar = (): JSX.Element => {
   const TopListItems = [
     {
       icon: (
-        <Icon
-          name='comment'
-          color={pathname === '/demandes/new' ? palette.orange.main : palette.black.main}
-          size={20}
-        />
+        <Icon name='bookmark' color={pathname === '/requests' ? palette.orange.main : palette.black.main} size={20} />
       ),
-      title: 'Nouvelle demande',
-      link: '/demandes/new'
-    },
-    {
-      icon: (
-        <Icon name='bookmark' color={pathname === '/demandes' ? palette.orange.main : palette.black.main} size={20} />
-      ),
-      title: 'Mes demandes',
-      link: '/demandes'
-    },
-
-    {
-      icon: <Icon name='user' color={pathname === '/profile' ? palette.orange.main : palette.black.main} size={20} />,
-      title: 'Profile',
-      link: '/profile'
+      title: 'All requests',
+      link: '/requests'
     },
     {
       icon: (

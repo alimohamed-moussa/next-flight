@@ -56,8 +56,8 @@ const Register = () => {
                 required
                 fullWidth
                 id='firstName'
-                label='Prenom'
-                placeholder='Prénom'
+                label='First Name'
+                placeholder='First Name'
                 sx={{ marginTop: '15px' }}
               />
             )}
@@ -82,8 +82,8 @@ const Register = () => {
                 required
                 fullWidth
                 id='lastName'
-                label='Nom'
-                placeholder='Nom'
+                label='Last Name'
+                placeholder='Last Name'
                 sx={{ marginTop: '15px' }}
               />
             )}
@@ -108,7 +108,7 @@ const Register = () => {
                 required
                 fullWidth
                 id='phone'
-                label='Téléphone portable'
+                label='Phone'
                 sx={{ marginTop: '15px' }}
                 placeholder='Ex. 0612345678'
               />
@@ -170,8 +170,8 @@ const Register = () => {
                 required
                 fullWidth
                 id='password'
-                label='Mot de passe'
-                placeholder='Mot de passe'
+                label='Password'
+                placeholder='Password'
                 sx={{ marginTop: '15px' }}
               />
             )}
@@ -193,7 +193,7 @@ const Register = () => {
             <Typography component='span' sx={{ fontSize: fontSize.xl }}>
               Avez-vous déjà un compte?
             </Typography>
-            <Link href='/login'>Se connecter</Link>
+            <Link href='/login'>Sign In</Link>
           </Box>
 
           {/* button field */}
@@ -210,7 +210,7 @@ const Register = () => {
               fontSize: fontSize.xl
             }}
           >
-            valider
+            Sign up
           </Button>
         </Box>
       </Box>
