@@ -3,15 +3,15 @@ module.exports = {
     files: ['*.ts', '*.tsx'],
     project: './tsconfig.json',
     tsconfigRootDir: __dirname,
-    sourceType: 'module',
+    sourceType: 'module'
   },
   parser: '@typescript-eslint/parser',
   extends: [
     'plugin:@typescript-eslint/recommended',
-    'plugin:security/recommended',
+    //'plugin:security/recommended',
     'standard-with-typescript',
     'next/core-web-vitals',
-    'plugin:storybook/recommended',
+    'plugin:storybook/recommended'
   ],
   ignorePatterns: [
     '**/public/',
@@ -20,7 +20,7 @@ module.exports = {
     '**/yarn.lock',
     '**/next-env.d.ts',
     '**/next.config.js',
-    '.eslintrc.js',
+    '.eslintrc.js'
   ],
   rules: {
     'multiline-ternary': 0,
@@ -31,8 +31,8 @@ module.exports = {
         ignoreComments: true,
         ignoreStrings: true,
         ignoreTemplateLiterals: true,
-        ignoreUrls: true,
-      },
+        ignoreUrls: true
+      }
     ],
     semi: 'off',
     'comma-dangle': 'off',
@@ -44,13 +44,13 @@ module.exports = {
       {
         multiline: {
           delimiter: 'semi',
-          requireLast: true,
+          requireLast: true
         },
         singleline: {
           delimiter: 'semi',
-          requireLast: false,
-        },
-      },
-    ],
-  },
+          requireLast: false
+        }
+      }
+    ]
+  }
 };

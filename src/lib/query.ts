@@ -1,6 +1,6 @@
 import { useSession } from 'next-auth/react';
 
-export type AuthQuery = (url: string, options: RequestInit) => Promise<any>;
+/*export type AuthQuery = (url: string, options: RequestInit) => Promise<any>;
 
 export const useAuthQuery = (): AuthQuery => {
   const { data: session } = useSession();
@@ -21,3 +21,4 @@ export const query = async (body: any): Promise<Response> =>
     method: 'POST',
     body,
   });
+ */
